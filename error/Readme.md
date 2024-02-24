@@ -38,7 +38,9 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+<img width="460" alt="Desktop" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/main/error/image/webview.jpg">
+
+<img width="174" alt="Mobile" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/main/error/image/mobileview.jpg"><br>
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -57,8 +59,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML](https://reactjs.org/)
-- [CSS](https://vuejs.org/)
+- HTML
+- CSS
 
 ## Features
 
