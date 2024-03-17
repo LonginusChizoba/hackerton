@@ -47,10 +47,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 This project is a modern Interior website. It utilizes responsive design techniques to ensure a seamless experience across various devices and screen sizes. The layout is clean, making it easy for users to navigate and find the information they need.
 
 - Where can I see your demo?
+  - [Project link](https://illustrious-moxie-80da01.netlify.app/interior_consultant/src/)
 
 - GitHub link
 
-  [Interior_Consultant](https://github.com/LonginusChizoba/hackerton/tree/Interior_consultant/Interior_Consultant)
+  - [Interior_Consultant](https://github.com/LonginusChizoba/hackerton/tree/Interior_consultant/Interior_Consultant)
 
 
 - What was your experience?
