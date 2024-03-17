@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/output.css">
     <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inconsolata:wght@200;300;400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    <script src="https://cdn.tailwindcss.com"></script>
     
-    <title>Document</title>
+    
+    <title>Interior Design</title>
 </head>
 <body class="bg-neutral-950 text-white bg-center bg-cover">
-    <div class="min-h-screen px-6 pt-3 flex flex-col lg:px-16 lg:py-7  ">
+    <div class="min-h-screen px-6 py-3 flex flex-col lg:px-16 lg:py-7  ">
         <header class="flex justify-between">
             <a href="#" class="flex items-center">
                 <h1 id="logo" class="text-sm  font-extralight font-serif border-2 px-2 py-1 cursor-pointer ">THIS INTERIOR</h1>
@@ -41,7 +41,7 @@
         </header>
 
 
-        <main class="lg:flex md:grid md:grid-flow-row md:auto-rows-max lg:pt-32 ">
+        <main class="lg:flex md:grid md:grid-flow-row md:auto-rows-max lg:pt-32 flex-grow">
             <div class="flex-1 w-auto mt-16 lg:mt-32 ">
                 <div class="text-5xl font-medium leading-tight font-[lora] my-6">
                     <h1>Modern interior</h1>
@@ -56,13 +56,13 @@
 
             <div class="flex-1 w-auto">
                 <div class="relative h-full flex justify-center items-center">
-                    <img src="./public/img/photo1.png" alt="" class="lg:h-[500px] lg:w-[737px]">
+                    <img src="./assets/img/photo1.png" alt="" class="lg:h-[500px] lg:w-[737px]">
                             
                     <div class="absolute bottom-[-97px] right-[10px] sm:w-[86%] md:w-[86%] lg:w-[29rem] text-white p-4">
                         <article class="items-center   p-6 z-40 bg-neutral-950 lg:h-40 h-auto shadow-2xl shadow-black text-white  ">
                             <div class="grid-flow-row auto-rows-max md:max-w-80vw">
                                 <div class="grid grid-cols-[auto,1fr] items-center gap-4">
-                                    <img src="./public/img/photo2.png" alt="" class="inline-block h-16 w-16 rounded-full">
+                                    <img src="./assets/img/photo2.png" alt="" class="inline-block h-16 w-16 rounded-full">
                                     <div>
                                     <p class="text-lg font-normal">Aliza Webber</p>
                                     <p class="text-slate-400 font-thin text-sm">Interior designer</p>
@@ -80,43 +80,11 @@
             </div>
         </main>
 
-        <footer class="mt-[10.5rem] sm:mt-[12rem] md:mt-[14rem] lg:pt-[-2rem] text-xs text-center text-gray-400">
+        <footer class=" pt-3 text-xs text-center text-gray-400">
             <p>Created by <a class="text-white" target="_blank" href="https://www.github.com/LonginusChizoba">LonginusChizoba</a> - devChallenges.io</p>
         </footer>
         
     </div>
-
-    <script>
-
-        function Menu(){
-            const menuIcon = document.getElementById("menu-icon");
-            if(menuIcon.classList.contains("fa-bars")){
-                menuIcon.classList.remove("fa-bars");
-                menuIcon.classList.add("fa-xmark")
-                menuItem("remove");
-            } else if(menuIcon.classList.contains("fa-xmark")){
-                menuIcon.classList.remove("fa-xmark");
-                menuIcon.classList.add("fa-bars")
-                menuItem("add");
-            }
-        }
-
-        function menuItem(action){
-            const menuItem = document.getElementById("menu-item");
-            const mobileMenuItem = document.getElementById("mobile-menu-item");
-            const logo = document.getElementById("logo");
-            const main = document.getElementById("main")
-            if(action == "remove"){
-                mobileMenuItem.classList.remove('hidden');
-                logo.classList.add('hidden')
-                main.classList.add('hidden')
-            } else if(action == "add"){
-                mobileMenuItem.classList.add('hidden')
-                logo.classList.remove('hidden')
-                main.classList.remove('hidden')
-            }
-            
-        }
-    </script>
+    <script src="./assets//js/script.js"></script>
 </body>
 </html>
