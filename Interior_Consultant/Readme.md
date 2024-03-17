@@ -48,6 +48,11 @@ This project is a modern Interior website. It utilizes responsive design techniq
 
 - Where can I see your demo?
 
+- GitHub link
+
+  [Interior_Consultant](https://github.com/LonginusChizoba/hackerton/tree/Interior_consultant/Interior_Consultant)
+
+
 - What was your experience?
     - Find it difficult at first intigrating tailwind css to my html without using using the traditional css am familiar with, because it's my first time using tailwind css for styling. I have to read through the documentation and also when ever i find it difficult to know the syntax to use to a particular styling, i refer back to tailwind doc to search for it. At the end of the project i was able to get the design.
 
