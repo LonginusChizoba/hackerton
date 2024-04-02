@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <title>Edie-Homepage</title>
+</head>
+<body class="bg-white text-black">
+    <div class="container mx-auto min-h-screen px-3 font-[poppins]">
+        <header class="flex flex-col">
+            <nav class="flex justify-between items-center px-3 py-3 ">
+                <a href="#" class=" text-3xl  font-bold cursor-pointer">
+                    <h1 id="logo">Edie</h1>
+                </a>
+                
+                <ul class="hidden lg:flex gap-14 font-normal ml-auto">
+                    <li><a href="#">Home</a></li> 
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Works</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <!-- Mobile -->
+                <div id="mobile-menu-item" class="hidden flex-col items-center justify-center h-screen">
+                    <ul class=" gap-14 font-normal ml-auto space-y-4 mt-80 top-[68px] cursor-pointer">
+                        <li><a href="#">Home</a></li> 
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Works</a></li>
+                        <li><a href="#">Clients</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            
+                <div id="menu-icon-div" class="lg:hidden font-extralight text-sm block cursor-pointer">
+                    <i id="menu-icon" class="fa-solid fa-bars fa-2x " onclick="Menu()"></i>
+                </div>
+            </nav>
+        </header>
+    
+        <main class="w-auto" id="main-section">
+            <section>
+                <div class="ml-4 md:ml-44">
+                    <p class="text-sky-blue pt-14 font-sans  text-xs">Unhappy with your website?</p>
+                    <div class="lg:w-[27rem]">
+                        <h2 class="font-sans sm:text-3xl lg:text-3xl text-2xl leading-normal font-medium tracking-wide w-[16rem] sm:w-[19rem] lg:w-[19rem]">We create beautiful  and fast web services</h2>
+                    </div>
+                </div>
+
+                <div class="w-auto">
+                    <img src="./img/heroImage.jpg" alt="heroImage" class="mt-4 rounded-2xl w-fit object-cover"/>
+                </div>
+            </section>
+
+            <section class="lg:w-[27rem] font-[poppins]">
+                <div class="ml-4  md:ml-44">
+                    <h2 class=" m-4  sm:text-3xl lg:text-3xl text-2xl leading-normal font-medium  w-[11rem] sm:w-[14rem]">Story, emotion  and purpose</h2>
+                    <p class="m-4 font-sans text-base sm:text-lg   font-extralight w-[20rem]">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+                </div>
+
+                <form class="ml-4 mt-8 md:ml-44 w-[13rem]">
+                    <label for="" class="m-4 font-sans text-xs font-extralight">Want us to contact you?</label>
+
+                    <div class="flex relative ">
+                        <div class="flex-1 w-64">
+                            <input class="h-10 w-[20rem] ml-4 pl-3 pr-20 py-6 text-base  bg-gray rounded-xl outline-none" type="text" placeholder="Email"/>
+                    
+                        </div>
+                        <div class="flex-1 w-32 ">
+                            <button class="absolute px-5 right-[-6.99rem] inset-y-1 items-center   text-white bg-sky-blue rounded-lg">
+                                Join
+                                </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <div class="mx-10 md:mt-32 font-[poppins]">
+                    <p class="ml-[0rem] my-20 sm:text-3xl lg:text-3xl text-2xl leading-relaxed font-medium  w-[14rem] sm:w-[17rem]  lg:w-[20rem]">We offer high  demand services</p>
+                    
+                    <div class="lg:flex md:grid md:grid-flow-row md:auto-rows-max  flex-grow">
+                        <div class="flex-1 w-auto hover:scale-190 flex justify-center mb-16">
+                            <div class=" hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl hover:p-7">
+                                <div class="text-white bg-sky-blue w-14 h-14 p-4 mb-8 rounded-xl text-xl ">
+                                    <i class="fa-solid fa-pencil"></i>
+                                </div>
+                                <p class="font-bold text-2xl mb-8 tracking-wider">UI/UX Design</p>
+                                <p class="font-light text-base mb-8 w-[273px] h-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a  metus ac nulla consequat aliquet id quis turpis.
+                                <div class=" text-gray-500 text-base">
+                                    <button class="bg-gray-200 p-2 rounded-xl hover:bg-sky-500 hover:text-white">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex-1 w-auto hover:scale-190 flex justify-center mb-16">
+                            <div class=" hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl hover:p-7">
+                                <div class="text-white bg-green w-14 h-14 p-4 rounded-xl mb-8 flex text-xl">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                                <p class="font-bold text-2xl mb-8 tracking-wider ">Front End</p>
+                                <p class="font-light text-base mb-8 w-[273px] h-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a  metus ac nulla consequat aliquet id quis turpis.</p>
+                                <div class=" text-gray-500 text-base">
+                                    <button class="bg-gray-200 p-2 rounded-xl hover:bg-sky-500 hover:text-white">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex-1 w-auto hover:scale-190 flex justify-center">
+                            <div class="hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl hover:p-7">
+                                <div class="text-white bg-red w-14 h-14 p-4 rounded-xl mb-8 flex text-xl">
+                                    <i class="fa-solid fa-list"></i>
+                                </div>
+                                <p class="font-bold text-2xl mb-8 tracking-wider ">Back End</p>
+                                <p class="font-light text-base mb-8 w-[273px] h-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                                <div class=" text-gray-500 text-base ">
+                                    <button class="bg-gray-200 p-2 rounded-xl hover:bg-sky-500 hover:text-white">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+
+            <section>
+                <div class="font-[poppins]">
+                    <h2 class="mt-32 mb-20 sm:text-3xl lg:text-3xl text-2xl leading-relaxed font-medium tracking-wide w-[20rem] sm:w-[19rem] lg:w-[20rem] font-[poppins] ">Good design means good business</h2>
+                    <div class="sm:grid sm:grid-cols-2">
+                        <div class="mb-14 m-4 w-fit">
+                            <img src="./img/smarthome.jpg" alt="" class="rounded-3xl object-cover">
+                            <div class="mt-4">
+                                <p class="font-thin text-xs">Full stack application</p>
+                                <p class="text-lg font-medium">Smart home dashboard</p>
+                            </div>
+                        </div>
+
+                        <div class="mb-14 sm:-mt-40 m-4 w-fit">
+                            <img src="./img/onboard.png" alt="" class="rounded-3xl object-cover">
+                            <div class="mt-4">
+                                <p class="font-thin text-xs">UX/UI design</p>
+                                <p class="text-lg font-medium">Onboard application</p>
+                            </div>
+                        </div>
+
+                        <div class="mb-14 sm:mt-10 m-4 w-fit">
+                            <img src="./img/booking.png" alt="" class="rounded-3xl object-cover">
+                            <div class="mt-4">
+                                <p class="font-thin text-xs">Mobile application</p>
+                                <p class="text-lg font-medium">Booking system</p>
+                            </div>
+                        </div>
+
+                        <div class=" sm:-mt-14 m-4 w-fit">
+                            <img src="./img/juice-product.png" alt="" class="rounded-3xl object-cover">
+                            <div class="mt-4">
+                                <p class="font-thin text-xs">FrontEnd application</p>
+                                <p lass="text-lg font-medium">Juice product homepage</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-sky-blue text-lg gap-3 cursor-pointer mb-40 sm:justify-end sm:flex">
+                        <a href="">see more<span class="ml-3">&#8594</span></a>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section>
+                <div class="sm:flex sm:justify-between mb-32 font-[poppins]">
+                    <div>
+                        <h3 class="text-lg text-red font-medium mb-4">Meet the team</h3>
+                        <p class="text-4xl font-medium  leading-snug my-4">We are chilled <br> and a laidback <br> team</p>
+                        <p class="font-extralight text-base mb-6"> Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 ">
+                        <img src="./img/person3.png" alt="" class="rounded-2xl pt-20">
+                        <div class="grid grid-cols-1 gap-4 ">
+                            <img src="./img/person1.png" alt="" class="rounded-2xl"/>
+                            <img src="./img/person2.png" alt=""class="rounded-2xl"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <article class="mb-24">
+                    <figure class="font-medium font-[poppins] text-xl sm:text-2xl lg:text-3xl w-[22rem] sm:w-[38rem]  lg:w-[55rem]">
+                        “Fast and outstanding results. Edie understands their customer’s needs. They have a young and talented team.”    
+                    </figure>
+                    <div class="flex gap-6 pt-6">
+                        <img src="./img/person4.png" alt="" class=" h-14 w-14 rounded-md"/>
+                        <figcaption>
+                            <p class="text-xl font-medium mb-2">Carlos Tran</p>
+                            <p class="text-base font-normal text-gray-400">The Decorate Gatsby</p>
+                        </figcaption>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+    </div> 
+    
+    
+    <footer id="footer-section">
+        <div class="py-8 px-14 bg-black text-white font-[poppins]">
+            <div class="lg:flex md:grid relative ">
+                <div class="flex-1 lg:w-64 w-auto">
+                    <ul class="grid  gap-4  text-lg mb-12">
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>Our Works</li>
+                        <li>Clients</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="flex-1 lg:w-32 w-auto">
+                    <p class="text-4xl font-bold mb-2">Edie</p>
+                    <ul class="flex gap-4 text-xl">
+                        <li><i class="fa-brands fa-instagram "></i></li>
+                        <li><i class="fa-brands fa-linkedin "></i></li>
+                        <li><i class="fa-brands fa-twitter "></i></li>
+                    </ul>
+                </div>
+                <div class="flex-1 lg:w-64 w-auto">
+                    <form class="lg:mt-0 mt-10 mb-20">
+                        <label for="" class="font-sans text-xs font-extralight">Want us to contact you?</label>
+    
+                        <div class="flex relative ">
+                            <div class="flex-1 w-64">
+                                <input class="h-10 w-[206%] lg:w-[198%] pl-3 py-6 text-base  bg-gray-200 rounded-xl outline-none" type="text" placeholder="Email"/>
+                        
+                            </div>
+                            <div class="flex-1 w-32 ">
+                                <button class="absolute px-5 right-[1.01rem] inset-y-1 items-center   text-white bg-sky-blue rounded-lg">
+                                    Join
+                                    </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class=" pt-3 text-xs text-center text-gray-400">
+                <p>Created by <a target="_blank" href="https://www.github.com/LonginusChizoba">chizobalonginus</a>- devChallenges.io</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../src/index.js"></script>
+</body>
+</html>

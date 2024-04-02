@@ -1,7 +1,7 @@
 
 <!-- Please update value in the {}  -->
 
-<h1 align="center"> Interior Consultant Website </h1>
+<h1 align="center"> Edie Home Page</h1>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -22,15 +22,15 @@
 
 ## Overview
 
-<img width="460" alt="Desktop" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/Interior_consultant/Interior_Consultant/src/public/img/webView.jpg">
+<img width="460" alt="Desktop" src="">
 
-<img width="174" alt="Mobile" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/Interior_consultant/Interior_Consultant/src/public/img/mobileView.jpg"><br>
+<img width="174" alt="Mobile" src=""><br>
 
 
 <!-- Description -->
 
 ## Description
-This project is a modern Interior website. It utilizes responsive design techniques to ensure a seamless experience across various devices and screen sizes. The layout is clean, making it easy for users to navigate and find the information they need.
+This project is a responsive homepage template for a company named Edie. It showcases various sections of the company's offerings, including services, team information, client testimonials, and contact details. The template features modern design elements and utilizes Tailwind CSS for styling.
 
 ### Built With
 
@@ -53,25 +53,22 @@ This project is a modern Interior website. It utilizes responsive design techniq
 
 
 ## My Experience
-    -I developed this website as part of a project for devChallenges.io. It allowed me to practice my front-end development skills, including HTML, CSS, and JavaScript. I utilized Tailwind CSS for styling to streamline the development process and ensure responsiveness across different devices.
+    -During the development of this project, I gained experience in creating responsive web designs and utilizing modern design trends. 
+    - I also improved my proficiency in using Tailwind CSS for rapid UI development.
 
 
 ## What I learnt
-    - I learnt that before starting any project, First try to understand the structure of the project, then map out how to implement it.
-    - Made use of flex and grid style to set how the layout of the project will look at each screen.
-    - Tailwind Installation and setup.
-    - Learnt how to use tailwind CSS for responsive website and tailwind syntax.
-    - learnt how to postition an article on top of image and making it resposive for all screen size.
-    - Use JavaScript to hide and add interactiveness to the toggle menu.
-    - Created a branch on an existing git repository.
-    - learnt what .gitignore does and added it to my project.
-    - Pushed my project to Github.
-    - Deploy to Netlify.
+ - Expand my knowledge more on Semantic HTML markup for content structure.
+- Advanced CSS techniques for layout customization.
+- Learnt more Tailwind styling syntax.
+- Integration of Font Awesome icons for enhanced visual representation.
 
 ## What I improved on
+- Enhanced my skills in responsive web design.
+- Improved efficiency in UI development using Tailwind CSS
 - Problem-solving Skills: Faced with various challenges during development, I improved my ability to find solutions efficiently, through documentation, online resources, and experimentation.
-
 - Attention to Detail: Paying close attention to design details, ensuring consistency and coherence throughout the website for an enhanced user experience.
+- Improved efficiency in UI development using Tailwind CSS
 
 
 ## Features
