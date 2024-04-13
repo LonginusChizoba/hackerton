@@ -43,7 +43,7 @@ This project is a modern Interior website. It utilizes responsive design techniq
 <!-- Demo -->
 
 ## Where to see my demo
-  - [Project link](https://illustrious-moxie-80da01.netlify.app/interior_consultant/src/)
+  - [Project link](https://illustrious-moxie-80da01.netlify.app/interior_consultant)
 
 ## GitHub link
 

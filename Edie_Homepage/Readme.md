@@ -45,7 +45,7 @@ This project is a responsive homepage template for a company named Edie. It show
 <!-- Demo -->
 
 ## Where to see my demo
-  - [Project link](https://illustrious-moxie-80da01.netlify.app/interior_consultant/src/)
+  - [Project link](https://illustrious-moxie-80da01.netlify.app/edie_homepage/src/)
 
 ## GitHub link
 
