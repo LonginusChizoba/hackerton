@@ -49,12 +49,12 @@ This project is a responsive homepage template for a company named Edie. It show
 
 ## GitHub link
 
-  - [Interior_Consultant](https://github.com/LonginusChizoba/hackerton/tree/Interior_consultant/Interior_Consultant)
+  - [Edie home page](https://github.com/LonginusChizoba/hackerton/tree/main/Edie_Homepage)
 
 
 ## My Experience
-    -During the development of this project, I gained experience in creating responsive web designs and utilizing modern design trends. 
-    - I also improved my proficiency in using Tailwind CSS for rapid UI development.
+  - During the development of this project, I gained experience in creating responsive web designs and utilizing modern design trends. 
+  - I also improved my proficiency in using Tailwind CSS for rapid UI development.
 
 
 ## What I learnt

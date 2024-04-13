@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -12,33 +12,37 @@
 </head>
 <body class="bg-white text-black">
     <div class="container mx-auto min-h-screen px-3 font-[poppins]">
-        <header class="flex flex-col">
-            <nav class="flex justify-between items-center px-3 py-3 ">
-                <a href="#" class=" text-3xl  font-bold cursor-pointer">
-                    <h1 id="logo">Edie</h1>
-                </a>
+        <header class=" top-0 z-50 ">
+            <nav class="container flex justify-between items-center px-6 font-medium">
+                <div class=" py-5 text-color-secondary font-bold text-3xl">
+                    <a href="#">Edie</a>
+                </div>
                 
-                <ul class="hidden lg:flex gap-14 font-normal ml-auto">
-                    <li><a href="#">Home</a></li> 
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Our Works</a></li>
-                    <li><a href="#">Clients</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-
-                <!-- Mobile -->
-                <div id="mobile-menu-item" class="hidden flex-col items-center justify-center h-screen">
-                    <ul class=" gap-14 font-normal ml-auto space-y-4 mt-80 top-[68px] cursor-pointer">
-                        <li><a href="#">Home</a></li> 
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Our Works</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Contact</a></li>
+                <div>
+                    <ul class="hidden lg:flex items-center space-x-6 relative">
+                        <li><a href="#home" class="hover:text-red/95 custom-hover">Home 
+                            </a></li>
+                        <li><a href="#services" class="hover:text-red/95 custom-hover">Services</a></li>
+                        <li><a href="#ourWorks" class="hover:text-red/95 custom-hover">Our Works</a></li>
+                        <li><a href="#clients" class="hover:text-red/95 custom-hover">Clients</a></li>
+                        <li><a href="#contact" class="hover:text-red/95 custom-hover">Contact</a></li>
+                       
                     </ul>
                 </div>
-            
-                <div id="menu-icon-div" class="lg:hidden font-extralight text-sm block cursor-pointer">
-                    <i id="menu-icon" class="fa-solid fa-bars fa-2x " onclick="Menu()"></i>
+    
+                <!-- Mobile Screen -->
+                <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+    
+                <div id="menu" class="hidden bg-white h-[100vh]  absolute inset-0">
+                    <ul class="h-full grid place-items-center pt-40 pb-72">
+                        <li><a href="#home" class="">Home</a></li>
+                        <li><a href="#services" class="">Services</a></li>
+                        <li><a href="#ourWorks" class="">Our Works</a></li>
+                        <li><a href="#clients" class="">Clients</a></li>
+                        <li><a href="#contact" class="">Contact</a></li>
+                    </ul>
                 </div>
             </nav>
         </header>
@@ -69,37 +73,36 @@
                     <div class="flex relative ">
                         <div class="flex-1 w-64">
                             <input class="h-10 w-[20rem] ml-4 pl-3 pr-20 py-6 text-base  bg-gray rounded-xl outline-none" type="text" placeholder="Email"/>
-                    
                         </div>
                         <div class="flex-1 w-32 ">
                             <button class="absolute px-5 right-[-6.99rem] inset-y-1 items-center   text-white bg-sky-blue rounded-lg">
                                 Join
-                                </button>
+                            </button>
                         </div>
                     </div>
                 </form>
             </section>
 
             <section>
-                <div class="mx-10 md:mt-32 font-[poppins]">
+                <div class="mx-10 md:mt-32 font-[poppins] mb-20">
                     <p class="ml-[0rem] my-20 sm:text-3xl lg:text-3xl text-2xl leading-relaxed font-medium  w-[14rem] sm:w-[17rem]  lg:w-[20rem]">We offer high  demand services</p>
                     
-                    <div class="lg:flex md:grid md:grid-flow-row md:auto-rows-max  flex-grow">
-                        <div class="flex-1 w-auto hover:scale-190 flex justify-center mb-16">
-                            <div class=" hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl hover:p-7">
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-32 px-4 sm:px-6 lg:px-8">
+                        <div class="flex-1 w-auto hover:scale-190 flex justify-center">
+                            <div class=" bg-transparent rounded-xl  hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl p-4 ">
                                 <div class="text-white bg-sky-blue w-14 h-14 p-4 mb-8 rounded-xl text-xl ">
                                     <i class="fa-solid fa-pencil"></i>
                                 </div>
                                 <p class="font-bold text-2xl mb-8 tracking-wider">UI/UX Design</p>
                                 <p class="font-light text-base mb-8 w-[273px] h-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a  metus ac nulla consequat aliquet id quis turpis.
                                 <div class=" text-gray-500 text-base">
-                                    <button class="bg-gray-200 p-2 rounded-xl hover:bg-sky-500 hover:text-white">Get Started</button>
+                                    <button class="bg-gray p-2 rounded-xl hover:bg-green hover:text-white">Get Started</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="flex-1 w-auto hover:scale-190 flex justify-center mb-16">
-                            <div class=" hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl hover:p-7">
+                        <div class="gap-4 flex-1 w-auto hover:scale-190 flex justify-center">
+                            <div  class=" bg-transparent rounded-xl  hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl p-4">
                                 <div class="text-white bg-green w-14 h-14 p-4 rounded-xl mb-8 flex text-xl">
                                     <i class="fa-solid fa-angle-left"></i>
                                     <i class="fa-solid fa-angle-right"></i>
@@ -107,23 +110,36 @@
                                 <p class="font-bold text-2xl mb-8 tracking-wider ">Front End</p>
                                 <p class="font-light text-base mb-8 w-[273px] h-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a  metus ac nulla consequat aliquet id quis turpis.</p>
                                 <div class=" text-gray-500 text-base">
-                                    <button class="bg-gray-200 p-2 rounded-xl hover:bg-sky-500 hover:text-white">Get Started</button>
+                                    <button class="bg-gray p-2 rounded-xl hover:bg-green hover:text-white">Get Started</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="flex-1 w-auto hover:scale-190 flex justify-center">
-                            <div class="hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl hover:p-7">
+                        <div class="gap-4 flex-1 w-auto hover:scale-190 flex justify-center">
+                            <div  class=" bg-transparent rounded-xl hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl p-4">
+                                <div class="text-white bg-red w-14 h-14 p-4 rounded-xl mb-8 flex text-xl">
+                                    <i class="fa-solid fa-list"></i>
+                                </div>
+                                <p class="font-bold text-2xl mb-8 tracking-wider ">Back End</p>
+                                <p class="font-light text-base mb-8 w-[273px] h-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a  metus ac nulla consequat aliquet id quis turpis.</p>
+                                <div class=" text-gray-500 text-base">
+                                    <button class="bg-gray p-2 rounded-xl hover:bg-green hover:text-white">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="flex-1 w-auto  flex justify-center">
+                            <div class="bg-transparent rounded-xl shadow-lg hover:bg-white hover:shadow-lg hover:shadow-gray-200 hover:rounded-2xl hover:m-52">
                                 <div class="text-white bg-red w-14 h-14 p-4 rounded-xl mb-8 flex text-xl">
                                     <i class="fa-solid fa-list"></i>
                                 </div>
                                 <p class="font-bold text-2xl mb-8 tracking-wider ">Back End</p>
                                 <p class="font-light text-base mb-8 w-[273px] h-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
                                 <div class=" text-gray-500 text-base ">
-                                    <button class="bg-gray-200 p-2 rounded-xl hover:bg-sky-500 hover:text-white">Get Started</button>
+                                    <button class="bg-gray p-2 rounded-xl  hover:text-white hover:bg-sky-blue">Get Started</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div> 
                 </div>
             </section>

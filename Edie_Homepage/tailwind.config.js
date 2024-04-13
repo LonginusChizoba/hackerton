@@ -13,8 +13,7 @@ module.exports = {
     fontFamily: {
 
     },
-  extend: {
-    },
+  extend: {},
   },
   plugins: [],
 }
