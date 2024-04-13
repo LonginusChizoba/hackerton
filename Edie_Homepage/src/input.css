@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-hover {
+    position: relative;
+  }
+  
+  .custom-hover::after {
+    content: '';
+    position: absolute;
+    width: 0; /* Initially set width to 0 */
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(235, 87, 87, 0.95);
+    transition: width 0.3s; /* Only transition the width property */
+  }
+  
+  .custom-hover:hover::after {
+    width: 100%; /* Expand the width to 100% on hover */
+  }
+  
+  
