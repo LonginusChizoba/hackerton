@@ -22,9 +22,9 @@
 
 ## Overview
 
-<img width="460" alt="Desktop" src="">
+<img width="460" alt="Desktop" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/main/Edie_Homepage/src/img/web-screen.jpg">
 
-<img width="174" alt="Mobile" src=""><br>
+<img width="174" alt="Mobile" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/main/Edie_Homepage/src/img/mobile-screen.jpg"><br>
 
 
 <!-- Description -->
@@ -79,4 +79,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@https://github.com/LonginusChizoba](https://{github.com/your-usermame})
+- GitHub [https://github.com/LonginusChizoba](https://github.com/LonginusChizoba)
