@@ -34,8 +34,6 @@ This project is a modern Interior website. It utilizes responsive design techniq
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
 - HTML
 - Tailwind CSS
 - JavaScript
