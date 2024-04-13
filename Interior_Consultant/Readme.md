@@ -22,9 +22,9 @@
 
 ## Overview
 
-<img width="460" alt="Desktop" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/Interior_consultant/Interior_Consultant/src/public/img/webView.jpg">
+<img width="460" alt="Desktop" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/main/Interior_Consultant/assets/img/webView.jpg">
 
-<img width="174" alt="Mobile" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/Interior_consultant/Interior_Consultant/src/public/img/mobileView.jpg"><br>
+<img width="174" alt="Mobile" src="https://raw.githubusercontent.com/LonginusChizoba/hackerton/main/Interior_Consultant/assets/img/mobileView.jpg"><br>
 
 
 <!-- Description -->
@@ -47,7 +47,7 @@ This project is a modern Interior website. It utilizes responsive design techniq
 
 ## GitHub link
 
-  - [Interior_Consultant](https://github.com/LonginusChizoba/hackerton/tree/Interior_consultant/Interior_Consultant)
+  - [Interior_Consultant](https://github.com/LonginusChizoba/hackerton/tree/main/Interior_Consultant)
 
 
 ## My Experience
@@ -80,4 +80,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@https://github.com/LonginusChizoba](https://{github.com/your-usermame})
+- GitHub [https://github.com/LonginusChizoba](https://github.com/LonginusChizoba)
